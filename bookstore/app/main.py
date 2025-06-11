@@ -2,10 +2,13 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from typing import List
 
+# This is a test entry for checking git example
+
 app = FastAPI()
 
 # ---- Mock Data Storage ----
 fake_books_db = []
+
 
 # ---- Schemas ----
 class BookCreate(BaseModel):
